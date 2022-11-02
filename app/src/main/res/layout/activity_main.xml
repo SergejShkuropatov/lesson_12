@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_current_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Главный экран"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btn_navigate_first_active"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:text="First Active"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_navigate_second_active"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:text="Second Active"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_navigate_third_active"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:text="Third Active"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
